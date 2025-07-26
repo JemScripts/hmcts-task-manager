@@ -80,7 +80,7 @@ The server will start on the port defined in `.env` (default 8080).
 - `status`: must be one of `pending`, `in_progress`, or `completed`
 - `dueDate`: must be a valid ISO date string if provided
 
-## 🧪 Testing
+## Testing
 
 This project includes automated backend tests for the Task API using **Jest** and **Supertest**. These tests cover:
 
