@@ -98,7 +98,7 @@ export const update = (req, res) => {
     Task.update(req.body, {
         where: {id: id}
     })
-        .then(num => {
+        .then(([num]) => {
             if(num === 1) {
                 res.send({
                     message: "Task was updated successfully."
