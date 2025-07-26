@@ -100,7 +100,3 @@ npm run test
 The tests will reset the database state before running to ensure a clean environment.
 
 ---
-
-## License
-
-MIT License
